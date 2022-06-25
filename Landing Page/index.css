@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;;
+    padding: 40px 10%;
+    position: sticky;
+    font-size: 18px;
+    box-shadow: inset 0px -2px 0px #f3f3f4;
+}
+
+nav .nav-name {
+    position: relative;
+}
+
+nav .nav-name span{
+    color: #fff;
+    padding: 0 0px 2px;
+    
+}
+
+nav .nav-name .bg{
+    position: absolute;
+    top: 0;
+    width: 42px;
+    height: 38px;
+    background-color: #6752ea;
+    border-radius: 50%;
+    transform: translateY(-23%);
+    z-index: -1;  
+}
+
+
+nav .nav-menu{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav .nav-menu li{
+    list-style: none;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+nav .nav-social i{
+    padding: 0 20px;
+    color: black;
+    height: 30px;
+    font-size: 24px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 192px 0px 192px;
+    position: relative;
+}
+section .sec-greeting h1{
+    font-size: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    word-spacing: 10px;
+   
+}
+
+section .sec-message > div{
+    padding-bottom: 30px;
+}
+
+section .sec-position h1{
+    font-size: 6vh;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    padding: 0 0 20px 0;
+}
+
+section .sec-position a{
+    color: #6752ea;
+    letter-spacing: 5px;
+}
+
+section .sec-btns{
+    display: flex;
+   padding-top: 20px;
+    
+}
+section .sec-btns input{
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+    border-style: none;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+section .btnContact{
+    background-color: #6752ea;
+    color: white;
+}
+
+
+
+section .sec-author-image{
+   display: flex;
+   border:  1px solid rgb(255, 255, 255);
+   border-radius: 50%;
+   overflow: hidden;
+   object-fit: fit;
+   margin-right: 250px;
+   position: relative;
+   border: 1px solid rgb(255, 235, 235);
+}
+
+
+section .sec-author-image img{
+    width: 450px;
+    height: 450px;
+}
+
+section .tech-stack{
+    padding-top: 150px;
+}
+
+
+section .cards{
+    display: flex;
+    max-width: 1521px;
+    border: 2px solid #f3f3f4;
+}
+
+section .cards .card{
+    width: 300px;
+    height: 300px;
+    margin: 100px 100px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+section .cards .card img{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
